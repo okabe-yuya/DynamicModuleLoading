@@ -1,5 +1,5 @@
 ## interface
-### start / 0
+### start / 1
 create process
 ```elixir
 def start(p_pid)
@@ -8,7 +8,7 @@ def start(p_pid)
 end
 ```
 
-### job / 0
+### job / 1
 execute job
 ```elixir
 def run(p_pid) do
